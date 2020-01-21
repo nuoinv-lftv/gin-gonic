@@ -12,7 +12,6 @@ import (
 	// _ "github.com/jinzhu/gorm/dialects/postgres" //postgres database driver
 
 	"github.com/nuoinguyen/gin-gonic/app/models"
-	// github.com/nuoinguyen/gin-gonic
 )
 
 // Server struct
