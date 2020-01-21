@@ -7,7 +7,7 @@ import (
 )
 
 // Server variable call controller Server
-// var Server = routes.Server{}
+// var Server = api.Server{}
 
 // Home is default
 func (server *Server) Home(w http.ResponseWriter, r *http.Request) {

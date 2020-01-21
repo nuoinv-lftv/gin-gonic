@@ -2,13 +2,11 @@ package controllers
 
 import (
 	"github.com/nuoinguyen/gin-gonic/app/middlewares"
-	// "github.com/nuoinguyen/gin-gonic/config"
 )
 
-// Server variable call controller Server
-// var Server = config.Server{}
-
 func (s *Server) initializeRoutes() {
+	// Server variable call controller Server
+	// var server = api.Server{}
 
 	// Home Route
 	s.Router.HandleFunc("/", middlewares.SetMiddlewareJSON(s.Home)).Methods("GET")
